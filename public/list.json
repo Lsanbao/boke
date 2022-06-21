@@ -1,0 +1,345 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": "5efb4c5d13f8b244e57cc632",
+            "author_id": "5b0eaaf38a4f51e140d9437d",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p><img src=\"//static.cnodejs.org/FtqTjdKjmFfToaLhm5Lvn8YI0c0E\" alt=\"nodejs_interprise_practice.png\"></p>\n<p>在和一些 Nodeer 童鞋的分享交流过程中，也会听到一些声音：“Node.js 在企业中是如何应用的？有哪些大厂在实践？”，于是公众号 “Nodejs技术栈” 自 19 年 8 月开始陆陆续续给大家分享一些 Node.js 在企业中的应用实践，希望给正在学习、使用 Node.js 的童鞋一些参考。</p>\n<p><strong>Nodejs 生态的建设需要大家共同努力，如有企业实践的欢迎补充让更多朋友能够看到</strong>！谢谢大家！</p>\n<h2>阿里</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/63Lv9qwsoXocCE3sIhsIPA\">看优酷 Nodejs 重构之路 Serverless SSR 未来可期</a></li>\n<li><a href=\"https://zhuanlan.zhihu.com/p/101917567\">“云”端的语雀：用 JavaScript 全栈打造商业级应用</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/f5xIN9d7s011_gXej84MJw\">独家解读：淘宝使用 Node.js 的 TypeScript 多场景开发和实践</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/ghciI1dj9dve6Bsrf8Yj1w\">基于阿里云的 Node.js 稳定性实践</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/wIYlSPSJSK2eHbk48SFQLw\">蚂蚁金服 Node.js 开荒史 - 摸爬滚打才不负功名尘土</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/oKcQXj3CWt1Ts_tOtw7QTg\">基于 Node.js 的 Serverless 架构实践</a></li>\n<li><a href=\"https://www.yuque.com/preview/yuque/0/2020/pdf/84135/1578575086211-802410a9-a833-47ce-b612-b6f6108285e6.pdf\">用 Node.js 构建海量页面渲染服务</a></li>\n<li><a href=\"https://www.yuque.com/preview/yuque/0/2020/pdf/84135/1578577070295-d62924f6-a34c-463f-a6b5-ea657cfd038d.pdf\">Node.js Web 框架研发与实践</a></li>\n<li><a href=\"https://github.com/tmallfe/tmallfe.github.io/issues/28\">天猫双11前端分享系列（四）：大规模 Node.js 应用</a>（上）</li>\n<li><a href=\"https://github.com/tmallfe/tmallfe.github.io/issues/30\">天猫双11前端分享系列（六）：大规模 Node.js 应用（续）</a>（下）</li>\n</ul>\n<h2>腾讯</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/7lA2-mCM9GR3BekWH6hB2Q\">腾讯视频 Node.js 服务是如何支撑国庆阅兵直播高并发的？</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/GGrb7Oex7SqtwzIKAXSFVg\">Node.js 部署和运维工作量降低 80%，腾讯 NOW 直播是怎么做到的？</a></li>\n</ul>\n<h2>携程</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/yuK3MvgMlYE5thEx6e8rtQ\">浅谈 Node.js 在携程的应用</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/NU7Hm96-cngvUCOF2LOpMA\">携程机票 Node.js 开发实践</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/ndPlZJWM9pxusGMY8C0eyA\">Node.js 在携程的落地和最佳实践</a></li>\n</ul>\n<h2>转转</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/1rjvoOySe-dcxn8fWE8BMQ\">Node.js 在转转的微服务实践（一）</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/HyoCCOD0SqcGA7Ajt7GWuA\">Node.js 在转转的微服务实践（二）</a></li>\n</ul>\n<h2>宋小菜</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/HCKWKhnlDwAGo5s797W7jA\">框架设计：如何基于 Egg 设计 Node 的服务框架</a></li>\n<li><a href=\"https://mp.weixin.qq.com/s/j4tAMFzlGQ5O9q768KE9Cg\">为什么 Node 是小菜前端团队的核心技术栈</a></li>\n</ul>\n<h2>百度</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/2ZnBR2Ki7VJCLmtVT4oOsw\">商业化场景下，百度如何实践 Node.js 架构？</a></li>\n</ul>\n<h2>苏宁</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/Dr7k1JDE6crJoYU7fmEcTw\">苏宁的 Node.js 实践：不低于Java的渲染性能、安全稳定迭代快</a></li>\n</ul>\n<h2>京东</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/jnIqOr-zhybgZbejKLZikg\">记一次京东 Node.js 直出服务的性能优化</a></li>\n</ul>\n<h2>爱奇艺</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/J9cYX8DkZFb6iAJt6E0THQ\">爱奇艺 PC Web Node.js 中间层实践</a></li>\n</ul>\n<h2>去哪儿</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/osgtwTLJhJJmF0bHFmKgUg\">去哪儿网前后端分离实践（含 Node.js 应用实践）</a></li>\n</ul>\n<h2>个推</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/e_w0Q1T1F8yZWHeoUaOTQw\">Node.js 在个推的微服务实践：基于容器的一站式命令行工具链</a></li>\n</ul>\n<h2>有赞</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/vTL98USoRyJrcu4ny9r0ZQ\">Node.js 在有赞的实践分享</a></li>\n</ul>\n<h2>微医</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/OeZyo7MZhadGjKV83LZnhA\">Node.js 在微医的应用场景及实践</a></li>\n</ul>\n<h2>贝壳找房</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/umr-SZXflTy9XQoRRf56Rg\">2019大前端秘籍：贝壳找房多端提效和性能质量优化实践</a></li>\n</ul>\n<h2>途牛</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/TI8VgCpToFQDrITLyac3Rg\">Node.js 微应用在途牛的实践</a></li>\n</ul>\n<h2>滴滴</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/IsnQCEC8oehDmdmpbXWKwQ\">NodeX Component - 滴滴集团 Node.js 生态组件体系</a></li>\n</ul>\n<h2>58 同城</h2>\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s/wfMl-2wFXSpx8QjTckJxCw\">基于 SFF 一站式 Nodejs 服务管理平台实践</a></li>\n</ul>\n<h2>网易</h2>\n<ul>\n<li><a href=\"https://zhuanlan.zhihu.com/p/138925672\">网易智慧企业 Node.js 实践（1）| Node 应用架构设计和 React 同构</a></li>\n<li><a href=\"https://zhuanlan.zhihu.com/p/142547821\">网易智慧企业 Node.js 实践（2）| 平滑发布和前端代码</a></li>\n<li><a href=\"https://zhuanlan.zhihu.com/p/142551285\">网易智慧企业 Node.js 实践（3）| 灰度环境和应用监控</a></li>\n</ul>\n<h2></h2>\n<hr>\n<p>如果您正在实践 Node.js，很期待能收到您的分享，可以关注公众号 “Nodejs技术栈” 在后台向我投稿，后期都会进行整理放在 <a href=\"https://github.com/Q-Angelo/Nodejs-Roadmap/blob/master/docs/nodejs/practice/enterprise.md\">Github</a> 以供大家学习和实践参考。</p>\n<p><strong>作者简介</strong>：五月君，软件设计师，<a href=\"https://www.imooc.com/u/2667395\">慕课网认证作者</a>，公众号 “<a href=\"https://nodejsred.oss-cn-shanghai.aliyuncs.com/node_roadmap_wx.jpg?x-oss-process=style/may\">Nodejs技术栈</a>” 作者，热爱技术、喜欢分享的 90 后青年，欢迎关注 Github 开源项目 <a href=\"https://www.nodejs.red\">https://www.nodejs.red</a></p>\n</div>",
+            "title": "Node.js 在企业中的应用实践集锦 - 2020 年中汇总",
+            "last_reply_at": "2020-10-04T12:59:45.432Z",
+            "good": true,
+            "top": true,
+            "reply_count": 17,
+            "visit_count": 61037,
+            "create_at": "2020-06-30T14:29:49.729Z",
+            "author": {
+                "loginname": "Q-Angelo",
+                "avatar_url": "https://avatars0.githubusercontent.com/u/17956058?v=4&s=120"
+            }
+        },
+        {
+            "id": "5e16978581adfe260207a8c1",
+            "author_id": "54009f5ccd66f2eb37190485",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><h2>活动信息</h2>\n<p><img src=\"//static.cnodejs.org/Fsqzwb41k7ivzIJn810EEwPQ_2it\" alt=\"1111.png\"></p>\n<p><img src=\"//static.cnodejs.org/Fu_XCoMAB8uUlFYPGWQ3ncssCb8t\" alt=\"2222.png\"></p>\n<p><img src=\"//static.cnodejs.org/Fge-hr_LF_guf0BbwQ9xmi0unnNi\" alt=\"33333.png\"></p>\n<p>本次活动需要提前报名，场地大约有100人</p>\n<p>报名连接</p>\n<p><a href=\"https://www.huodongxing.com/event/5526816284100?utm_source=%E5%8F%91%E7%8E%B0%E6%B4%BB%E5%8A%A8%E9%A1%B5&amp;utm_medium=&amp;utm_campaign=eventspage\">https://www.huodongxing.com/event/5526816284100?utm_source=发现活动页&amp;utm_medium=&amp;utm_campaign=eventspage</a></p>\n<h2>PPT</h2>\n<p><a href=\"https://github.com/i5ting/nodeparty-beijing-2020-1-11\">https://github.com/i5ting/nodeparty-beijing-2020-1-11</a></p>\n<h2>照片</h2>\n<p>龙佳文\n<img src=\"//static.cnodejs.org/Fg4dIjPNKksKiOMmyIgGMEg1087O\" alt=\"111 1.jpg\"></p>\n<p>十忆\n<img src=\"//static.cnodejs.org/Fs9J2dxbgickUDOzM7Vwuxd7HVKF\" alt=\"222 1.jpg\">\n狼叔\n<img src=\"//static.cnodejs.org/Fhc9AmVNEbqAdmxOUTYwIN7XdYU_\" alt=\"3333 1.jpg\">\n王东\n<img src=\"//static.cnodejs.org/FssLOS3hMlVq658eD_yb3CJpeW8C\" alt=\"4444 1.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Fsuj39b-PoVOS65vAoVgFqbR9m8Q\" alt=\"5555 1.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FiTD21bRAzZZbpCueJRk7Uq-Ik7i\" alt=\"7777 1.jpg\">\n现场提问\n<img src=\"//static.cnodejs.org/Fm6ssdq_P6JNaftwAZ_AyiXtVIxb\" alt=\"8888 1.jpg\">\n流司\n<img src=\"//static.cnodejs.org/FoqgjwSNssTlJ1ufnowc1jxx_imR\" alt=\"9923 1.jpg\">\n现场提问\n<img src=\"//static.cnodejs.org/FplNNONJOacRNbvnvc7EBl1sgN8U\" alt=\"9999 1.jpg\">\n现场\n<img src=\"//static.cnodejs.org/Fl--jBm9nfRCmNPCvL92TrlkvdGT\" alt=\"11212 1.jpg\"></p>\n<p>圆桌会\n<img src=\"//static.cnodejs.org/Fq7xH6d9K1bor6ixUFY1AEO4d8GU\" alt=\"23323e4ds 1.jpg\">\n<img src=\"//static.cnodejs.org/FulUvueqoTJ8nIGlOgJTD1JFGDPA\" alt=\"322332.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Ftw6oRg8G-eeqQ2SLrwiaj671sMF\" alt=\"稳稳稳.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FozWsIovHilxYBlJ-I8LmYW-gNhi\" alt=\"32323.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Fvhek3xeqE4afj41AuB5Vuj7MwSr\" alt=\"43434.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FvM4WhrhpkRT9sZ3CxsbGy8OX7bH\" alt=\"55545.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Fh7MgA9zXpT3Gc-1UfXsd3o8FB6F\" alt=\"111110.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Fr6oow-uHpFkkoVo2xIaw3Xm-gdI\" alt=\"232323.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Fl3A1Ijt8IeE9XHT9DNNUM_I0OkB\" alt=\"232332.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FobbWO7B2JwwszK80ZpJT8Pl6f0Y\" alt=\"322323.jpg\">\n<img src=\"//static.cnodejs.org/Fr7qQvzHT6pLInnX9m6JeFZEjKYC\" alt=\"812312.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FinFnUdjTZjt2DAdjC5H-DsYZ4Fa\" alt=\"882323.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Fq-nKPQt4JeiBZAQKft6vW49pGiB\" alt=\"3434389.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FuAt3QuZ-Y9E21EMrkn05JAcPLsf\" alt=\"9999923.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FkpIr82doXBBk7VH1aGM6zD16qZ-\" alt=\"23323232323.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FiKYZ46Ilm5OVT_Tunhmga8x-vrr\" alt=\"232323232332.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FqOE05r204gsYDWp-m9p04Vf1ME_\" alt=\"aaa.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FmRRAzINYs-j5hF-n7-LZKscD23e\" alt=\"bbbb.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FjIIelIuczqPkJjWSKC5wEtv3uzD\" alt=\"cccc.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FjIIelIuczqPkJjWSKC5wEtv3uzD\" alt=\"cccc.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FtponmJNP2UD0qemwD_1vBBa0ibK\" alt=\"dddd.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Fv0LVdt1X6RizMg5gp2CerH1pIMH\" alt=\"dfdfd.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/Fgw6rAtxlJg9fWLlQNM4gwozWlVj\" alt=\"eeeee.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FlnX4CFVmxrFQXmNWYQuwt6Ar4Et\" alt=\"EmptyName 2.jpg\"></p>\n<p><img src=\"//static.cnodejs.org/FnnoaFaMof3IxOR9sWJIj6jrjcPx\" alt=\"hjkl;'.jpg\"></p>\n<p>王东\n<img src=\"//static.cnodejs.org/FhNqWIas9yk1XuYvNHtijUzB40BK\" alt=\"jhklsd.jpg\"></p>\n<p>嘉宾合影\n<img src=\"//static.cnodejs.org/FvKMqpc7UZhVeRKXUNvtY8FuBAEh\" alt=\"上3.jpg\"></p>\n<p>狼书签名\n<img src=\"//static.cnodejs.org/FgxEWL85ZMEA8qpVakAvvSUWEmVd\" alt=\"23e4232 1.jpg\"></p>\n<h2>视频</h2>\n<p>面向B端工作台的微前端方案-ConsoleOS-徐博文\n<a href=\"https://edu.talkingdata.com/open-class?id=142\">https://edu.talkingdata.com/open-class?id=142</a></p>\n<p>Serverless在美团的实践-龙佳文\n<a href=\"https://edu.talkingdata.com/open-class?id=143\">https://edu.talkingdata.com/open-class?id=143</a></p>\n<p>前端生态建设在瓜子的落地实践-王东\n<a href=\"https://edu.talkingdata.com/open-class?id=144\">https://edu.talkingdata.com/open-class?id=144</a></p>\n<p>Egg-React-SSR深度解析-张宇昂\n<a href=\"https://edu.talkingdata.com/open-class?id=145\">https://edu.talkingdata.com/open-class?id=145</a></p>\n<p>如何融入并贡献开源-Justjavac\n<a href=\"https://edu.talkingdata.com/open-class?id=146\">https://edu.talkingdata.com/open-class?id=146</a></p>\n<p>圆桌讨论\n<a href=\"https://edu.talkingdata.com/open-class?id=147\">https://edu.talkingdata.com/open-class?id=147</a></p>\n</div>",
+            "title": "2020年1月11日Node party@北京成功举办，附照片、视频和ppt",
+            "last_reply_at": "2020-09-28T03:40:52.790Z",
+            "good": true,
+            "top": true,
+            "reply_count": 14,
+            "visit_count": 58059,
+            "create_at": "2020-01-09T03:01:25.190Z",
+            "author": {
+                "loginname": "i5ting",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/3118295?v=4&s=120"
+            }
+        },
+        {
+            "id": "5ee1ee83b703280f0bcb922a",
+            "author_id": "575eaa97c1518403160a45c4",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p>欢迎加入官方钉钉群 <strong>35149528</strong> 一起讨论</p>\n<p>如果项目对你有帮助，访问 <a href=\"https://github.com/hyj1991/easy-monitor\">https://github.com/hyj1991/easy-monitor</a> 来 star 支持下作者。</p>\n<h2>I. 项目简介</h2>\n<p>作为一名 Node.js 开发者，深知对于初涉服务端领域的前端同学来说，在引入 Node.js 的时候很容易心里没底：</p>\n<ul>\n<li>我的应用内存一点点上涨，是为什么呢？</li>\n<li>我的应用为何响应时间这么慢？</li>\n<li>我的代码性能瓶颈在那里呢？</li>\n<li>…</li>\n</ul>\n<p>今天我们很荣幸能回馈社区，正式开源 <a href=\"https://github.com/hyj1991/easy-monitor\">Easy-Monitor</a> 3.0 版本，它是一款Node.js 应用性能监控与线上故障定位解决方案。</p>\n<p>旨在 Node.js 的开源生态工具链上，做一些能帮助到想使用和正在使用 Node.js 的开发者更好地感知自己的 Node.js 应用状态，以更好地面对来自性能和稳定性方面的挑战。</p>\n<p><strong>3.0 具备以下新特性：</strong></p>\n<ul>\n<li>针对 Node.js 进程与系统指标的性能监控</li>\n<li>错误日志展示与依赖 Npm 模块安全风险提示</li>\n<li>自定义智能运维告警与线上进程实时状态导出</li>\n</ul>\n<p>对比起 AliNode 等前辈，Easy-Monitor 提供了：</p>\n<ul>\n<li>私有化部署能力。</li>\n<li>低侵入性，通过 Addon 的方式提供能力，无需定制 Node.js Runtime，能更快的跟进上游。</li>\n<li>支持 Linux、macOS、Windows 三大操作系统。</li>\n</ul>\n<p><img src=\"//static.cnodejs.org/FnEoTfjTCxChTFvTt_xIU8ko1Dnj\" alt=\"image.png\"></p>\n<ul>\n<li>文档地址：<a href=\"https://github.com/hyj1991/easy-monitor\">https://github.com/hyj1991/easy-monitor</a></li>\n<li>源码地址：<a href=\"https://github.com/X-Profiler\">https://github.com/X-Profiler</a></li>\n</ul>\n<h2>II. 整体架构</h2>\n<p>Easy-Monitor 经过了 1.x，2.x 两个大版本的功能迭代，目前的 3.0 版本是作者在 Node.js 监控侧的又一个阶段性总结，对这部分感兴趣的同学可以查看 <a href=\"https://www.yuque.com/hyj1991/easy-monitor/past-and-present\">前世今生</a>。</p>\n<p>目前实现了对 <strong>Window</strong>、<strong>Linux</strong> 和 <strong>MacOS</strong> 三大平台的 Node.js 应用监控支持，整体设计架构如下所示：</p>\n<p><img src=\"//static.cnodejs.org/FvZX-2V8QKJJKrIZHN17sbtKazI0\" alt=\"image.png\"></p>\n<p>控制台前端基于 <a href=\"https://vuejs.org/\">Vue.js</a> + <a href=\"https://github.com/view-design/ViewUI\">iView UI</a> 框架编写，监控服务端部分则是基于 <a href=\"https://eggjs.org/\">Egg.js</a> 框架编写，UI 部分整体参考了 AliNode 控制台。</p>\n<p>更多信息可以访问 <a href=\"https://www.yuque.com/hyj1991/easy-monitor/architecture\">用户手册 - 整体架构</a> 进行查看。</p>\n<p>在此，再次感谢 <a href=\"https://eggjs.org/\">Egg.js</a>、<a href=\"https://github.com/cnpm\">CNPM</a> 和 <a href=\"https://node.console.aliyun.com/\">AliNode</a> 对 Node.js 生态带来的贡献。</p>\n<h2>III. 部署指南</h2>\n<p>参照模块设计图，可以看到项目的部署主要分为两个部分：</p>\n<ul>\n<li>部署监控服务端</li>\n<li>Node.js 应用接入</li>\n</ul>\n<p>我们提供了以下 Demo 帮助大家快速体验下 Easy-Monitor 3.0 的能力。</p>\n<h3>控制台</h3>\n<p>大家可以访问 <a href=\"http://www.devtoolx.com/easy-monitor\">控制台 Demo</a> ，快速体验下新版。（Demo 在代码上做了一些特殊限制防止恶意操作，本地控制台部署参见下文 <a href=\"#AT5yW\">完整使用文档</a>）</p>\n<h3>应用接入</h3>\n<p>我们支持各种 Node.js 应用接入，此处以 <a href=\"https://eggjs.org/\">Egg.js</a> 为例：</p>\n<p>先安装插件：</p>\n<pre class=\"prettyprint language-bash\"><code>npm i --save egg-xtransit --xprofiler_binary_host_mirror=https:&#x2F;&#x2F;npm.taobao.org&#x2F;mirrors&#x2F;xprofiler\n</code></pre><p>启用插件：</p>\n<pre class=\"prettyprint language-javascript\"><code>&#x2F;&#x2F; {app_root}&#x2F;config&#x2F;plugin.js\nexports.xtransit = {\n  enable: true,\n  package: &#x27;egg-xtransit&#x27;,\n};\n</code></pre><p>配置接入信息：</p>\n<pre class=\"prettyprint language-javascript\"><code>&#x2F;&#x2F; {app_root}&#x2F;config&#x2F;config.default.js\nexports.xtransit = {\n  server: &#x27;ws:&#x2F;&#x2F;devtoolx.com:7070&#x27;,\n  appId: 1,\n  appSecret: &#x27;f7b99d08cc0193106690860047b28970&#x27;\n};\n</code></pre><p>对应的 ID 需要访问 <a href=\"http://www.devtoolx.com/easy-monitor\">控制台 Demo</a> 来注册和获取，如下：</p>\n<p><img src=\"//static.cnodejs.org/FvG9ApruCc5ADFoXMLwh-ui77t17\" alt=\"image.png\"></p>\n<p>最后按照正常操作启动 Egg.js 项目即可，正常情况下，你可以在 <a href=\"http://www.devtoolx.com/easy-monitor\">控制台 Demo</a> 主页看到本地连接上来的实例：</p>\n<p><img src=\"//static.cnodejs.org/FtVey-27T8znhlQnbINeGp_zw048\" alt=\"image.png\"></p>\n<h3>用户手册</h3>\n<p>目前完整的使用文档部署在语雀上，参见 <a href=\"https://www.yuque.com/hyj1991/easy-monitor\">Easy-Monitor 3.0 用户手册</a>。</p>\n<p>开发者可以根据文档自行部署上述的监控服务端，再将自己的 Node.js 应用接入。</p>\n<h2>IV. 支持作者</h2>\n<p>最后的最后，作者是完全使用空余时间维护更新这个项目的，如果项目对你有帮助， 来个 <a href=\"https://github.com/hyj1991/easy-monitor\">star</a> 支持下作者吧 :)</p>\n<p>如果你在使用过程中有任何的疑问或者建议可以提 issue，或者扫码加钉钉群联系作者：</p>\n<p><img src=\"//static.cnodejs.org/FovdVuTHR8dqbNQA2G3WUX8dt93P\" alt=\"微信图片_20200717085956.jpg\"></p>\n<p>希望本项目如其名一样，能帮助开发者解决更多开发中遇到的问题，构建起对 Node.js 技术栈的信心，让 Node.js 更加 “简单”。</p>\n</div>",
+            "title": "Easy-Monitor 3.0 开源 - 基于 Addon 的 Node.js 性能监控解决方案",
+            "last_reply_at": "2020-09-26T03:04:44.884Z",
+            "good": true,
+            "top": true,
+            "reply_count": 24,
+            "visit_count": 68989,
+            "create_at": "2020-06-11T08:42:43.597Z",
+            "author": {
+                "loginname": "hyj1991",
+                "avatar_url": "https://avatars2.githubusercontent.com/u/19908330?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f8a622cf9736b02ceadb596",
+            "author_id": "5b85221808d0b0fb2d8e6c84",
+            "tab": "ask",
+            "content": "<div class=\"markdown-text\"><p>大咖们，nodejs生态有没有比较成熟的微服务框架推荐？？</p>\n</div>",
+            "title": "nodejs生态有没有比较成熟的微服务框架推荐？？",
+            "last_reply_at": "2020-10-17T03:17:00.461Z",
+            "good": false,
+            "top": false,
+            "reply_count": 0,
+            "visit_count": 22,
+            "create_at": "2020-10-17T03:17:00.461Z",
+            "author": {
+                "loginname": "danielmlc",
+                "avatar_url": "https://avatars2.githubusercontent.com/u/16604995?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f8575a672af8c02d3f8e691",
+            "author_id": "5875bd3d06fa6e2a4e4f730b",
+            "tab": "ask",
+            "content": "<div class=\"markdown-text\"><p>RT</p>\n</div>",
+            "title": "域名被封了还有人么",
+            "last_reply_at": "2020-10-15T04:07:30.555Z",
+            "good": false,
+            "top": false,
+            "reply_count": 3,
+            "visit_count": 106,
+            "create_at": "2020-10-13T09:38:46.068Z",
+            "author": {
+                "loginname": "zy445566",
+                "avatar_url": "https://avatars2.githubusercontent.com/u/14976489?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f7793bff9736b02ceadb32c",
+            "author_id": "5ef7d6b5472c7975b04b7a13",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p><img src=\"https://lightyearvpn.com/assets/logo.png\" alt=\"光年vpn logo\"></p>\n<h1><a href=\"https://lightyearapp.me\">光年VPN - 科学上网， 翻墙利器</a></h1>\n<blockquote>\n<p>建议收藏此页面防止失联或者丢失</p>\n</blockquote>\n<ul>\n<li>部署SSR节点和V2Ray节点。</li>\n<li>无需配置，一键连接，适合小白。</li>\n<li>提供全球40多个节点，包括BGP线路和CN2 GIA线路。</li>\n<li>无限流量，流畅观看高清视频。</li>\n<li>海外专业团队运营。</li>\n<li>支持支付宝和PayPal，可7天内退款。</li>\n<li>注册后可免费VPN试用。</li>\n</ul>\n<blockquote>\n<p>官网提供免费SSR节点订阅链接，请访问<a href=\"https://lightyearapp.me/zh/free-vpn\">地址</a></p>\n</blockquote>\n<h2>官网链接</h2>\n<ul>\n<li><a href=\"https://lightyearapp.me\">最新免翻墙地址(2020/09/01更新)</a></li>\n<li><a href=\"https://lightyearvpn.com\">官方永久地址</a></li>\n</ul>\n<blockquote>\n<p>实时更新最新免翻墙地址!</p>\n</blockquote>\n<h2>应用下载</h2>\n<p>&lt;a target=&quot;_blank&quot; href=‘<a href=\"https://apps.apple.com/us/app/lightyearvpn-fast-trusted/id1495258888\">https://apps.apple.com/us/app/lightyearvpn-fast-trusted/id1495258888</a>’&gt;&lt;img width=“300” alt=‘Get it on Google Play’ src=‘<a href=\"https://applelaneanimalhospital.com/wp-content/uploads/2019/04/apple.png\">https://applelaneanimalhospital.com/wp-content/uploads/2019/04/apple.png</a>’/&gt;&lt;/a&gt;</p>\n<p>&lt;a target=&quot;_blank&quot; href=‘<a href=\"https://play.google.com/store/apps/details?id=com.stingsystemllc.lightyearapp\">https://play.google.com/store/apps/details?id=com.stingsystemllc.lightyearapp</a>’&gt;&lt;img width=“300” alt=‘Get it on Google Play’ src=‘<a href=\"https://applelaneanimalhospital.com/wp-content/uploads/2019/04/google.png\">https://applelaneanimalhospital.com/wp-content/uploads/2019/04/google.png</a>’/&gt;&lt;/a&gt;</p>\n<h2>网盘下载</h2>\n<p>如果Github下载速度不理想，可以使用网盘下载，支持Windows，Mac，和Android客户端下载。</p>\n<blockquote>\n<p><a href=\"https://lightyear.lanzous.com/b00tu4njg\">https://lightyear.lanzous.com/b00tu4njg</a></p>\n</blockquote>\n<h2>如何从海外的应用商店下载APP</h2>\n<blockquote>\n<p>&lt;a target=&quot;_blank&quot; href=“<a href=\"https://zhuanlan.zhihu.com/p/36574047\">https://zhuanlan.zhihu.com/p/36574047</a>”&gt;5分钟注册美国区Apple ID（2020测试有效）&lt;/a&gt;</p>\n</blockquote>\n<h2>电报群</h2>\n<blockquote>\n<p><a href=\"https://t.me/lightyearvpn\">https://t.me/lightyearvpn</a></p>\n</blockquote>\n</div>",
+            "title": "光年VPN - 科学上网， 翻墙利器",
+            "last_reply_at": "2020-10-13T09:33:14.483Z",
+            "good": false,
+            "top": false,
+            "reply_count": 1,
+            "visit_count": 318,
+            "create_at": "2020-10-02T20:55:27.683Z",
+            "author": {
+                "loginname": "lightyearvpn",
+                "avatar_url": "https://avatars0.githubusercontent.com/u/48337017?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f79475972af8c02d3f8e513",
+            "author_id": "59aa89ea9e95202d08c91ed3",
+            "tab": "ask",
+            "content": "<div class=\"markdown-text\"><p>落伍了哦：（\n<a href=\"https://github.com/github/fetch/blob/master/fetch.js.flow\">https://github.com/github/fetch/blob/master/fetch.js.flow</a>\n中的代码：</p>\n<pre class=\"prettyprint language-typescript\"><code>type RequestOptions = {|\n  body?: ?BodyInit;\n  credentials?: CredentialsType;\n  headers?: HeadersInit;\n  method?: string;\n  mode?: string;\n  referrer?: string;\n  signal?: ?AbortSignal;\n|}\n</code></pre><p>上面的类型定义{| ……|}什么用？\nbody?: ?BodyInit; 第二个问号又作何解</p>\n<p>谢谢</p>\n</div>",
+            "title": ".js.flow后缀文件是typescript？还是facebook搞出来的？",
+            "last_reply_at": "2020-10-10T01:32:34.961Z",
+            "good": false,
+            "top": false,
+            "reply_count": 1,
+            "visit_count": 227,
+            "create_at": "2020-10-04T03:54:01.421Z",
+            "author": {
+                "loginname": "xinggsf",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/13033798?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f2138a6f0739b0e62d12b40",
+            "author_id": "5a3075929807389a1809f330",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p><a href=\"https://yggx.net/\">妹子这舞蹈跳的好看，主要是人长得好看</a>\n<a href=\"http://yggx.net\">yggx.net</a></p>\n</div>",
+            "title": "分享一个GIF图库 yggx.net",
+            "last_reply_at": "2020-10-09T01:46:10.808Z",
+            "good": false,
+            "top": false,
+            "reply_count": 1,
+            "visit_count": 2621,
+            "create_at": "2020-07-29T08:51:50.885Z",
+            "author": {
+                "loginname": "varscc",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/32264346?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f7c74e3f9736b02ceadb432",
+            "author_id": "57c92f432adfc63a26784431",
+            "tab": "ask",
+            "content": "<div class=\"markdown-text\"><p>本站的dns解析挂了？</p>\n</div>",
+            "title": "本站的dns解析挂了？",
+            "last_reply_at": "2020-10-06T14:19:44.308Z",
+            "good": false,
+            "top": false,
+            "reply_count": 3,
+            "visit_count": 215,
+            "create_at": "2020-10-06T13:45:07.675Z",
+            "author": {
+                "loginname": "Shonke",
+                "avatar_url": "https://avatars.githubusercontent.com/u/9344384?v=3&s=120"
+            }
+        },
+        {
+            "id": "5eeef3ea472c7975b04b69e3",
+            "author_id": "5eeef33913f8b244e57cabc5",
+            "tab": "share",
+            "content": "<div class=\"markdown-text\"><p>项目地址: <a href=\"https://github.com/davanchen/easytype\">https://github.com/davanchen/easytype</a></p>\n<h1>欢迎使用EasyType：一个基于TypeScript的动态类型反射系统</h1>\n<p>众所周知JavaScript因为语言的特性，无法与JAVA一样提供一种动态类型反射机制，而市面上又缺乏完善的解决方案，EasyType的出现是为了从根本上解决这个问题, 赋予开发者尤其是后端开发者更多的能力。</p>\n<h6>警告：单元测试未完全覆盖，切勿用于商业项目。</h6>\n<h6>开源只是为了交流技术、不想把一个好的理念埋没在个人手里，由于个人时间关系，本项目可能不会得到良好的维护，期望有成熟的公司或者团队能够改进或者重构它，让他成为node后端必备框架之一。</h6>\n<h3>项目起源</h3>\n<p>从18年开始，我就决定让团队使用node+typescript来开发后端服务，经过一年多的实践，发现各种库都有一套自己的“建模语言”来申明类型，比如mongoose、数据验证器、GraphQL、GRPC、swagger等等。这不禁让我迷惑不解，为什么用了typescript以后还要重复写这么多的类型申明？于是我从19年初开始开发了这个框架陆续来实现。刚开始是通过AST来分析mongoose的schema生成模型接口和定义，但是没有从根本上解决问题，所以接下来是通过直接分析typescript的类申明来实现，后续又引入了json-schema标准，最后对枚举、方法、联合类型、泛型都提供了支持。</p>\n<h3>设计目标</h3>\n<ul>\n<li>能够覆盖typescript绝大多数的类型，尤其是对泛型能提供完善的支持。</li>\n<li>尽可能的减少侵入，无需改动任何的代码</li>\n<li>支持Transpile模式，无需构建即可直接运行，而且编译速度非常快</li>\n<li>能够通过cli运行与构建项目,也能够脱离cli运行或者构建项目</li>\n</ul>\n<h3>方案对比</h3>\n<table>\n<thead>\n<tr>\n<th>项目</th>\n<th>对比</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><a href=\"https://github.com/gcanti/io-ts\" title=\"io-ts\">io-ts </a></td>\n<td>定义了一套类型声明，设计目标可能主要是解决IO传输中的编码与解码</td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/typestack/class-transformer\" title=\"class-transformer\">class-transformer</a></td>\n<td>定义了一套修饰器，只支持部分的TS类型</td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/YousefED/typescript-json-schema\" title=\"typescript-json-schema\">typescript-json-schema</a></td>\n<td>需要调用CLI生成JSON格式的类型声明，非动态</td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/goloveychuk/tsruntime\" title=\"tsruntime\">tsruntime</a></td>\n<td>是和typescript-json-schema一样在TypeCheck阶段实现，因此不支持Transpile模式</td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/andywer/type-reflect\" title=\"type-reflect\">type-reflect</a></td>\n<td>类似，但功能不够完善</td>\n</tr>\n</tbody>\n</table>\n<h3>使用场景</h3>\n<p>引入EasyType将为你的后端开发带来更大的想象空间，其中我们团队用到的部分就包括：</p>\n<ul>\n<li>不用添加任何代码，将TS类申明直接转换成mongoose schema</li>\n<li>不用添加任何代码，可以直接使用各种json-schema数据验证器</li>\n<li>不用添加任何代码，动态生成API文档，稍微改动就能生成OpenAPI规范的swagger文档，你的接口改动团队其他成员可以随时看到。</li>\n<li>不用添加任何代码，动态生成RPC声明，比如一键生成GRPC proto申明文件，把微服务开发变成一件很轻松的事情。</li>\n<li>由于后端能够输出完整的类型申明，因此前端（尤其是后台开发）能够快速的构建出数据显示、操作界面，会使开发变得更快速高效。</li>\n</ul>\n<h3>原理</h3>\n<p>通过typescript的自定义transform，在编译阶段把类型写入类描述中，最后在运行时生成json-schema标准的类型说明。</p>\n<pre class=\"prettyprint language-javascript\"><code>@Reflectable()\nexport class User extends Document {\n    &#x2F;** 用户ID *&#x2F;\n    uid: number;\n\n    &#x2F;** 用户名 *&#x2F;\n    username: string;\n}\n</code></pre><p>比如以上代码，通过编译器将变为:</p>\n<pre class=\"prettyprint language-javascript\"><code>export class User extends Document {\n    $easy.IsObject({\n        $type: 1,\n        $properties: {\n            uid: {\n                $type: 2,\n                $description: &quot;\\u7528\\u6237ID&quot;,\n                $ref: Number\n            },\n            username: {\n                $type: 2,\n                $description: &quot;\\u7528\\u6237\\u540D&quot;,\n                $ref: String\n            },\n        },\n        $target: User,\n        $id: &quot;User&quot;,\n        $extends: mongoose_1.Document\n    })\n    private $metadata: any;\n}\n</code></pre><p>通过在运行时调用 Schema.getMetadata(User), 即可得到User的类型声明(json-schema):</p>\n<pre class=\"prettyprint language-javascript\"><code>{\n    &quot;type&quot;: &quot;object&quot;,\n    &quot;properties&quot;: {\n        &quot;_id&quot;: {\n            &quot;type&quot;: &quot;string&quot;,\n            &quot;format&quot;: &quot;OBJECT_ID&quot;,\n            &quot;description&quot;: &quot;ID&quot;\n        },\n        &quot;uid&quot;: {\n            &quot;type&quot;: &quot;number&quot;,\n            &quot;description&quot;: &quot;用户ID&quot;,\n        },\n        &quot;username&quot;: {\n            &quot;type&quot;: &quot;string&quot;,\n            &quot;description&quot;: &quot;用户名&quot;,\n        }\n    },\n    &quot;required&quot;: [\n        &quot;_id&quot;,\n        &quot;uid&quot;,\n        &quot;username&quot;\n    ],\n    &quot;$id&quot;: &quot;User&quot;,\n    &quot;$x&quot;: &quot;Document&quot;\n}\n</code></pre><h3>更强大的ENUM</h3>\n<p>在typescript中enum的存在更像是为了描述类型（你在运行时很难分清哪个是key,哪个是value），这也就不能与JAVA一样提供一些操作, 因此EasyType在编译阶段增加一些方法，使之变得更加灵活和强大，借助这些特性我们就能够实现无缝输出ENUM信息到API文档，而无需再书写任何的注释或者代码。</p>\n<pre class=\"prettyprint language-javascript\"><code>export interface EnumInterface&lt;T&gt; {\n    readonly keys: string[];\n\n    readonly values: number[] | string[];\n\n    getValue(key: string): Undefinable&lt;T&gt;;\n\n    hasValue(value: any): boolean;\n\n    getKeys(value: any): string[];\n\n    getKey(value: any): Undefinable&lt;string&gt;;\n\n    hasKey(key: string): boolean;\n\n    getDescription(key: string): Undefinable&lt;string&gt;;\n}\n\nexport type Enum&lt;T = any, V = number | string&gt; =\n    { readonly [P in keyof T]: T[P]; }\n    &amp; Readonly&lt;EnumInfo&gt;\n    &amp; EnumInterface&lt;V&gt;\n    ;\n\n</code></pre><p>现在你可以通过 Enum&lt;Foo&gt;.Keys 和 Enum&lt;Bar&gt;.values 获得键值，也可以拿到对应的像这样的类型申明：</p>\n<pre class=\"prettyprint language-javascript\"><code>    {\n        &quot;name&quot;: &quot;AssetType&quot;,\n        &quot;description&quot;: &quot;用户资产类型&quot;,\n        &quot;fields&quot;: [\n            {\n                &quot;key&quot;: &quot;BALANCE&quot;,\n                &quot;value&quot;: 1,\n                &quot;description&quot;: &quot;账户余额&quot;\n            },\n            {\n                &quot;key&quot;: &quot;POINTS&quot;,\n                &quot;value&quot;: 3,\n                &quot;description&quot;: &quot;账户积分&quot;\n            }\n        ]\n    },\n</code></pre><h3>部分继承</h3>\n<p>使用关键词extends会继承基类所有的属性，有时候如果你想部分继承基类属性，可以使用Inherits语法糖：</p>\n<pre class=\"prettyprint language-javascript\"><code>@Reflectable()\nexport class UserLoginDto implements Inherits&lt;User&gt; {\n    username: string;\n    password: string;\n}\n\n</code></pre><h3>方法反射</h3>\n<p>方法的注释、修饰符、参数、返回值等信息会被标注到Metadata中，可以通过 Reflect.getMetadata(‘easy:metadata’, target, propertyKey) 获取。</p>\n<h3>还有哪些问题？</h3>\n<ul>\n<li>还没来得及做完整的单元测试，所以暂时不能用于商业项目</li>\n<li>泛型目前编译器这块已完成，但是运行时由于时间关系还未能提供支持</li>\n<li>由于设计原因，只能支持类的输出，不支持interface和type的输出，因为前者在js运行时以function存在，后者不存在于运行时，或许后面会想办法支持。</li>\n<li>低版本的TypeScript（3.7以下）会有一些问题，所以用最新的TSC编译吧。</li>\n</ul>\n<h3>插播一条广告</h3>\n<p>即将推出基于EasyType+nest.js的全家桶开发包，尽情期待。\n项目地址: <a href=\"https://github.com/davanchen/easynest\">https://github.com/davanchen/easynest</a></p>\n<h3>演示：借助vscode插件(即将开源)一键生成proto</h3>\n<p><img src=\"https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/Code_7GLTwoRGAx.png\" alt>\n<img src=\"https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/Code_oBYASf68Uo.png\" alt></p>\n<h3>演示：EasyNest API文档模块自动生成API描述（枚举、控制器、模型）</h3>\n<p><img src=\"https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/screenshot_controller.PNG\" alt>\n<img src=\"https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/screenshot_enums.PNG\" alt>\n<img src=\"https://tmyx.oss-cn-hangzhou.aliyuncs.com/github/screenshot_models.PNG\" alt></p>\n</div>",
+            "title": "快来了解一下EasyType：开源的基于TypeScript的动态类型反射系统",
+            "last_reply_at": "2020-10-03T06:40:33.596Z",
+            "good": false,
+            "top": false,
+            "reply_count": 9,
+            "visit_count": 4799,
+            "create_at": "2020-06-21T05:45:14.647Z",
+            "author": {
+                "loginname": "davanchen",
+                "avatar_url": "https://avatars2.githubusercontent.com/u/48879035?v=4&s=120"
+            }
+        },
+        {
+            "id": "5ce36eb4518e0954fc41015b",
+            "author_id": "5bc6779d37a6965f5905229a",
+            "tab": "ask",
+            "content": "<div class=\"markdown-text\"><p>各位前辈，之前有请教 ，使用权限管理框架，前辈介绍了casbin、shiro，请问有机会找到教学视频吗？付一些钱我也ok的，</p>\n<p>或是项目  的范例，谢谢</p>\n</div>",
+            "title": "各位前辈，之前有请教 ，使用权限管理框架，前辈介绍了casbin、shiro，请问有机会找到教学视频吗？付一些钱我也ok的，谢谢",
+            "last_reply_at": "2020-10-03T04:48:31.277Z",
+            "good": false,
+            "top": false,
+            "reply_count": 9,
+            "visit_count": 3418,
+            "create_at": "2019-05-21T03:21:24.314Z",
+            "author": {
+                "loginname": "Solomonqoo",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/44214486?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f73ff3a72af8c02d3f8e1b1",
+            "author_id": "5cc281d7a86ae80ce64b445a",
+            "tab": "kehu",
+            "content": "<div class=\"markdown-text\"><p>现在egg多个进程间对资源的争抢是怎么设计这个锁的呢？目前我们自己都是使用redis.incr来争抢某个key，值为1的进程就可以操作该资源，其他进程放弃操作或者循环等待。\n看到有博客提到Atomics这个模块，不知道egg中是否可以使用这个实现锁？</p>\n</div>",
+            "title": "egg多进程实现锁的最佳实践是什么？",
+            "last_reply_at": "2020-10-03T01:10:09.580Z",
+            "good": false,
+            "top": false,
+            "reply_count": 5,
+            "visit_count": 387,
+            "create_at": "2020-09-30T03:44:58.094Z",
+            "author": {
+                "loginname": "974806047",
+                "avatar_url": "https://avatars3.githubusercontent.com/u/20623913?v=4&s=120"
+            }
+        },
+        {
+            "id": "53487b01b9b1b4047b000fb8",
+            "author_id": "51525d4a5dff253b3709382f",
+            "tab": "kehu",
+            "content": "<div class=\"markdown-text\"><p>RT</p>\n</div>",
+            "title": "Mongous 如何根据 _id 查询数据? 希望给个例子.",
+            "last_reply_at": "2020-10-02T03:40:17.620Z",
+            "good": false,
+            "top": false,
+            "reply_count": 6,
+            "visit_count": 4190,
+            "create_at": "2014-04-11T23:30:09.689Z",
+            "author": {
+                "loginname": "gabacai81",
+                "avatar_url": "//gravatar.com/avatar/404dc6e8cf0755199b1381a5f2eeec0f?size=48"
+            }
+        },
+        {
+            "id": "5f71af1af9736b02ceadaba5",
+            "author_id": "5e13183c4bea432607fcd1d9",
+            "tab": "kehu",
+            "content": "<div class=\"markdown-text\"><p><strong>公司是一家tob的物联网车联网公司</strong>\n然后做saas软件  很多项目都是需要面对多个客户  每个客户的需求可能大致相同 有些细节或者流程会不同</p>\n<p><strong>困扰</strong>\n第一版出来之   后分开写的话 就需要维护很多个项目\n如果写到一个项目中的话 会变得很复杂 流程测试也很蛋疼 可能会改动其中一家的需求 影响到另一家的流程</p>\n<p>然后公司还有很多中台服务  比如 负责登陆的用户中心 负责认证的 负责数据的 还有业务的中台 等等一堆。。</p>\n<p>导致做项目的时候  即使需求不是很多 也会有很多人参与进来  一二十人都很正常 因为涉及的中台服务 岗位 很多　开发周期也很长</p>\n<p>感觉体验不是很好  QAQ</p>\n<p>个人感觉问题的所在就是如何“优雅”解决不同客户的需求的问题</p>\n<p>有没有有过这种经历的大佬　给点建议的QAQ</p>\n</div>",
+            "title": "saas软件如何解决多客户需求",
+            "last_reply_at": "2020-10-02T02:06:07.996Z",
+            "good": false,
+            "top": false,
+            "reply_count": 8,
+            "visit_count": 483,
+            "create_at": "2020-09-28T09:38:34.482Z",
+            "author": {
+                "loginname": "zhsonga",
+                "avatar_url": "https://avatars1.githubusercontent.com/u/18735806?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f70328972af8c02d3f8d919",
+            "author_id": "5f703212f9736b02ceada86b",
+            "tab": "job",
+            "content": "<div class=\"markdown-text\"><p>比如我给console.log 添加一个监听函数，每次执行log时，都会执行这个监听函数，不用改变console.log本身</p>\n</div>",
+            "title": "请问大佬，node有没有办法给函数添加一个监听函数。",
+            "last_reply_at": "2020-10-02T01:50:05.732Z",
+            "good": false,
+            "top": false,
+            "reply_count": 4,
+            "visit_count": 522,
+            "create_at": "2020-09-27T06:34:49.874Z",
+            "author": {
+                "loginname": "soandsoprogrammer",
+                "avatar_url": "https://avatars0.githubusercontent.com/u/38459469?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f6ff10472af8c02d3f8d7bf",
+            "author_id": "5f6feff872af8c02d3f8d7b5",
+            "tab": "job",
+            "content": "<div class=\"markdown-text\"><p>最近使用了koa-static 这个包，把服务器静态资源配置进去，访问的方法就是服务器地址加端口加文件名，但是发现配置多个文件都是直接加文件名称就可以访问了，请问路径如何细分呢？比如/business/xxxx.jpg ，谢谢啦</p>\n</div>",
+            "title": "求问各位前辈，有用过Koa-static的吗？这个包如何细分各个路径呢？",
+            "last_reply_at": "2020-10-02T01:48:47.852Z",
+            "good": false,
+            "top": false,
+            "reply_count": 2,
+            "visit_count": 1002,
+            "create_at": "2020-09-27T01:55:16.588Z",
+            "author": {
+                "loginname": "RenXiaoTai",
+                "avatar_url": "https://avatars0.githubusercontent.com/u/71952806?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f7576ae72af8c02d3f8e36d",
+            "author_id": "5f75767472af8c02d3f8e36a",
+            "tab": "job",
+            "content": "<div class=\"markdown-text\"><h2>下载地址：<a href=\"http://www.97yrbl.com/t-454.html\">百度网盘</a></h2>\n<p>第1章 课程介绍\n本章节介绍整个课程的内容，让大家了解课程的核心和安排。</p>\n<p>1-1 课程介绍（导学 ） 试看\n1-2 代码库和在线文档使用注意事项（必看）\n第2章 你好 Typescript： 进入类型的世界\n本章主要帮助大家理解 TypeScript 可以解决的问题和所带来的优势，带领大家学习 TS 中的各种基础类型，然后进阶到复杂类型，包括：Array, Tuple, interface, function, Class, Enum, Generices等，迅速帮助大家理解 TS 的基础使用方式和语法。</p>\n<p>2-1 什么是 Typescript\n2-2 为什么要学习 typescript\n2-3 安装 typescript\n2-4 原始数据类型和 Any 类型\n2-5 数组和元组\n2-6 Interface- 接口 初探\n2-7 函数\n2-8 类型推论 联合类型和 类型断言\n2-9 class - 类 初次见面\n2-10 类和接口 - 完美搭档\n2-11 枚举（Enum）\n2-12 泛型（Generics） 第一部分\n2-13 泛型（Generics） 第二部分 - 约束泛型\n2-14 泛型第三部分 - 泛型在类和接口中的使用\n2-15 类型别名，字面量 和 交叉类型\n2-16 声明文件\n2-17 内置类型\n第3章 初识 Vue3.0： 新特性详解\n首先浏览 vue3 新带来的变化，然后从为什么会有 vue3 引出话题， 带领大家学习 compostion API，自定义Hooks，Teleport，Suspense 和 全局 API 修改等一系列 vue3 的重大更新。</p>\n<p>3-1 vue3 新特性巡礼\n3-2 为什么会有 vue3\n3-3 使用 vue-cli 配置 vue3 开发环境\n3-4 项目文件结构分析和推荐插件安装\n3-5 vue3 - ref 的妙用 试看\n3-6 更近一步 - reactive\n3-7 vue3 响应式对象的新花样\n3-8 老瓶新酒 - 生命周期\n3-9 侦测变化 - watch\n3-10 vue3 模块化妙用- 鼠标追踪器\n3-11 模块化难度上升 - useURLLoader\n3-12 模块化结合typescript - 泛型改造\n3-13 Typescript 对 vue3 的加持\n3-14 Teleport - 瞬间移动 第一部分\n3-15 Teleport - 瞬间移动 第二部分\n3-16 Suspense - 异步请求好帮手第一部分\n3-17 Suspense - 异步请求好帮手第二部分\n3-18 全局 API 修改\n第4章 项目起航 - 准备工作和第一个页面\n本章从项目的需求开始分析，然后确定项目的整体结构和代码规范，并且为项目选择 Bootstrap 作为样式库，编写 ColumnList 和 GlobalHeader 完成简单的练手以后，开始挑战第一个比较复杂的 Dropdown 下拉菜单组件，最后还抽象抽象出第一个 hooks 函数。…</p>\n<p>4-1 项目起航 需求分析\n4-2 文件结构和代码规范\n4-3 样式解决方案简介和分析\n4-4 设计图拆分和组件属性分析\n4-5 ColumnList 组件编码\n4-6 ColumnList 组件使用 Bootstrap 美化\n4-7 GlobalHeader 组件编码\n4-8 Dropdown 组件基本功能编码\n4-9 Dropdown 组件添加 DropdownItem\n4-10 Dropdown 组件点击外部区域自动隐藏\n4-11 useClickOutside 第一个自定义函数\n第5章 表单的世界 - 完成自定义 Form 组件\n本章来到表单的世界，从头到尾非常完整的完成了一个带验证表单组件的全流程开发过程，在整个过程中，我们还学习到了 v-model，$attrs, slot，组件父子通讯 和 mitt 的各种知识点。</p>\n<p>5-1 web 世界的经典元素 - 表单\n5-2 ValidateInput 第一部分 — 简单的实现 试看\n5-3 ValidateInput 第二部分 —抽象验证规则\n5-4 ValidateInput 第三部分 — 支持 v-model\n5-5 ValidateInput 编码第四部分 — 使用 $attrs 支持默认属性\n5-6 ValidateForm 组件需求分析\n5-7 ValidateForm 编码第一部分 - 使用插槽 slot\n5-8 ValidateForm 编码第二部分 - 尝试父子通讯\n5-9 ValidateForm 编码第三部分 - 寻找外援 mitt\n5-10 ValidateForm 编码第四部分 - 大功告成\n第6章 请你吃全家桶 - 初步使用 vue-router 和 vuex\n本章从 SPA 的概念引出，完成了 vue-router 的安装，然后学习它的基本使用，获取信息，动态跳转，前置守卫和元信息等各种知识点，然后又介绍了状态管理工具的具体定义，从而引出 vuex 的安装 和 它的 state，mutation，getter 等多个基本知识点。…</p>\n<p>6-1 什么是 SPA（Single Page Application） 应用？\n6-2 vue-router 安装和使用\n6-3 vue-router 配置路由\n6-4 vue-router 添加路由\n6-5 添加 columnDetail页面\n6-6 状态管理工具是什么\n6-7 Vuex 简介和安装\n6-8 Vuex 整合当前应用\n6-9 使用 Vuex getters\n6-10 添加新建文章页面\n6-11 Vue router 添加路由守卫 - 前置守卫\n6-12 Vue router 添加路由守卫 - 使用元信息完成权限管理\n第7章 前后端结合 - 项目整合后端接口\n本章从 前后端分离和 RESTful 概念入手，介绍了为学生提供的 swagger 调试工具如何使用，然后引入 axios，通过 vuex action 的添加，实现 async 改造 和 axios 拦截器的基本用法，最后还抽象出一个 Loader 组件的编码和实现过程。</p>\n<p>7-1 前后端分离开发是什么\n7-2 RESTful API 设计理念\n7-3 使用 swagger在线文档查看接口详情\n7-4 axios 的基本用法和独家后端API 使用（必看）\n7-5 使用vuex action 发送异步请求\n7-6 使用vuex action 发送异步请求第二部分\n7-7 使用 async 和 await 改造异步请求\n7-8 使用axios拦截器添加loading效果\n7-9 Loader 组件编码第一部分 - 基本实现\n7-10 Loader 组件编码第二部分 - 使用 Teleport 进行改造\n第8章 通行凭证 - 权限管理\n本章从 获取 token 为起点，讲述了 JWT 通用身份验证工具的原理和实现，然后完成了 axios 设置通用header 和 持久化登录的处理方法，之后还添加了全局通用错误处理，最后抽象出一个通用组件 Message 的编码和实现过程。</p>\n<p>8-1 登录第一部分 获取token\n8-2 jwt 的运行机制\n8-3 登录第二部分 axios 设置通用 header\n8-4 登录第三部分 持久化登录状态\n8-5 通用错误处理\n8-6 创建 Message 组件\n8-7 Message 组件改进为函数调用形式\n8-8 作业：注册页面的编写\n第9章 道高一尺 - 上传组件\n本章实现了 Upload 组件从分析，编码的全过程，在这个过程中，我们将会学到：上传文件的原理，使用 axios 完成文件上传的方法，循序渐进的完成一个复杂组件的开发流程。</p>\n<p>第10章 最终的功能 - 编辑和删除文章\n通过完成文章的编辑和删除功能，引出了之前组件留下的几个 bug，通过解决bug 带给大家持续优化的思路和方案，最后完成了一个通用 Modal 组件的编码过程。</p>\n<p>第11章 持续优化\n通过分析发现应用中可以优化的两个部分，提出并编码 数组改成对象 的store 优化方案以及防止重复请求的解决方案。最后还抽象除了 useLoadMore 的逻辑实现，最终完成了一个复杂的自定义 Hooks。</p>\n<p>第12章 项目构建和部署\n从生产环境的概念以及生产环境和开发环境的异同的概念开始，接着实践了应用构建，构建代码上线，和构建代码持续集成的一系列概念。</p>\n<p>第13章 课程总结\n本章节带领大家回顾课程的内容。</p>\n<p>本课程持续更新中</p>\n</div>",
+            "title": "Vue3.0（正式版） + TS 仿知乎专栏企业级项目",
+            "last_reply_at": "2020-10-01T06:26:54.078Z",
+            "good": false,
+            "top": false,
+            "reply_count": 0,
+            "visit_count": 342,
+            "create_at": "2020-10-01T06:26:54.078Z",
+            "author": {
+                "loginname": "huashanjiaoxia",
+                "avatar_url": "https://avatars1.githubusercontent.com/u/72186899?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f70776b72af8c02d3f8d9b2",
+            "author_id": "51b44498f78196a85c3f28b7",
+            "tab": "good",
+            "content": "<div class=\"markdown-text\"><p>在项目开发中遇到了使用第三方旧库，仅提供回调方式返回结果。现在遇到的问题是：</p>\n<pre class=\"prettyprint\"><code>MyController{\n\tasync fn(){\n\t\tconst ctx = this.ctx;\n\t\t&#x2F;&#x2F;调用第三方库\n\t\tapi(&#x27;balabala&#x27;,function(err,cb){\n\t\t\tif(xxx){\n\t\t\t}\n\t\t\tctx.body=&quot;success&quot;; &#x2F;&#x2F;前端请求到此Fn时，无返回数据.\n\t\t})\n\t}\n}\n</code></pre><p>请问如何正确使用this.ctx，才能让Controller正确响应请求.</p>\n</div>",
+            "title": "Egg,Controller中回调函数问题",
+            "last_reply_at": "2020-09-30T11:27:06.332Z",
+            "good": false,
+            "top": false,
+            "reply_count": 6,
+            "visit_count": 689,
+            "create_at": "2020-09-27T11:28:43.385Z",
+            "author": {
+                "loginname": "nobody",
+                "avatar_url": "https://avatars1.githubusercontent.com/u/12067939?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f74341372af8c02d3f8e21f",
+            "author_id": "5b51454afb9e84ec69cc1c43",
+            "tab": "good",
+            "content": "<div class=\"markdown-text\"><p>马上要国庆节了，做了这个npm-dist，取名随意\n移除node_modules无用文件，很多npm包加了很多小包，个人觉得不妥，特想精简一下，打包环境适用\n<a href=\"https://www.npmjs.com/package/npm-dist/v/1.0.1\">https://www.npmjs.com/package/npm-dist/v/1.0.1</a>\n今年以来，有感这个论坛及node圈热度不在，有意见和建议欢迎反馈，大家共勉</p>\n</div>",
+            "title": "npm-dist，提取node_modules有用文件",
+            "last_reply_at": "2020-09-30T07:30:27.334Z",
+            "good": false,
+            "top": false,
+            "reply_count": 0,
+            "visit_count": 273,
+            "create_at": "2020-09-30T07:30:27.334Z",
+            "author": {
+                "loginname": "index-js",
+                "avatar_url": "https://avatars0.githubusercontent.com/u/26304725?v=4&s=120"
+            }
+        },
+        {
+            "id": "5f6c8775f9736b02ceada2e2",
+            "author_id": "575eaa97c1518403160a45c4",
+            "tab": "good",
+            "content": "<div class=\"markdown-text\"><h1>文件句柄泄露导致的进程假死</h1>\n<p>开源的 Node.js 性能监控与线上故障定位工具，欢迎大家关注：<a href=\"https://github.com/hyj1991/easy-monitor\">https://github.com/hyj1991/easy-monitor</a></p>\n<p>好久没写 Node.js 故障案例了，今天是一枚全新的进程假死无响应案例。</p>\n<p>特点时完全不同于之前常规遇到的类死循环引发的阻塞假死，值得记录分析的过程，希望对遇到其它的类似案例的开发者有所启发。</p>\n<h2>I. 故障现象</h2>\n<p><a href=\"https://github.com/hyj1991/easy-monitor\">Easy-Monitor</a> 开源官方讨论群里有一位同学 Midqiu 遇到了进程跑几个小时后就处于假死无响应的问题，而且神奇的是进程假死的同时，监控服务端的 **系统数据 **也同时断开：</p>\n<p><img src=\"//static.cnodejs.org/FiT1nb8NZx4pZH5F5gWCwo8uAw2_\" alt=\"image.png\"></p>\n<p>此时 <strong>进程数据</strong> 界面则回退到实例刚刚接入还未上报数据的状态：</p>\n<p><img src=\"//static.cnodejs.org/Fk7SFMwrpMtP8pQyAAVqepjFiYJh\" alt=\"image.png\"></p>\n<p>可以看到业务进程依旧在，检查此进程状态则显示 <code>xprofiler</code> 插件未启用：</p>\n<p><img src=\"//static.cnodejs.org/FrM08gctSqTkqWXyM419wnR_auMZ\" alt=\"image.png\"></p>\n<p>可以确认这个进程在几个小时之前是正确接入了 Easy-Monitor 的监控服务端的，经过和 Midqiu 的沟通，发现从进程假死的那一刻开始， <code>xprofiler</code> 插件的日志就没有再生成了。</p>\n<p>但是 <code>xprofiler</code> 插件在设计之初为了规避和 JS 工作主线程之间的互相干扰，所以是采用了 <code>uv trhread</code> 起了工作线程处理内核数据的，理论上 JS 线程卡死也不会影响它的内核日志输出。</p>\n<p>这样现象就很奇怪了，Node.js 的 JS 主线程卡死竟然会让插件的日志也无法正常输出。</p>\n<h2>II. 初步排查问题</h2>\n<p>既然是进程假死无响应，首先猜测的就是是不是 JS 工作主线程卡死导致的，所以线下沟通 SSH 到服务器上查看假死时的 Node.js 负载：</p>\n<p><img src=\"//static.cnodejs.org/Fnyk3J1fLfJXw-HbxFSMk-vEfYEs\" alt=\"image.png\"></p>\n<p>使用 <code>top -H -p &lt;pid&gt;</code> 查看发现 CPU 占用不到 1%，内存整体在 300MB 附近也非常正常。这时候其实我还不死心，手动在服务器应用下执行了 <code>xprofiler</code> 插件的命令：</p>\n<pre class=\"prettyprint language-bash\"><code>.&#x2F;node_modules&#x2F;.bin&#x2F;xprofctl check_version -p &lt;pid&gt;\n</code></pre><p>然而事实证明确实不仅仅是 JS 主线程假死，连插件创建的 IPC 通信线程也假死了：</p>\n<p><img src=\"//static.cnodejs.org/Fq_n-8Qmwfekrq1ikItZCp_S9VJZ\" alt=\"image.png\"></p>\n<p>此时第一次感到这个问题可能没有想象的那么简单了，初步总结了下故障现象：</p>\n<ul>\n<li>运行几小时后 Node.js 服务无响应，进程还在（未重启）</li>\n<li>进程的 CPU 和 RSS 均正常</li>\n<li><code>xprofiler</code> 插件创建的内核日志子线程和 IPC 通信子线程也无响应</li>\n</ul>\n<p>此时没什么好办法，只能祭出大招手动生成分析 Core 文件。</p>\n<h2>III. 分析 Coredump</h2>\n<p>首先在服务器上安装神器 <code>gcore</code>，然后执行 <code>sudo gcore &lt;pid&gt;</code> 生成 core 文件。Midqiu 将生成的 core 文件和 node 可执行文件打包发给了我，本地使用 GDB 进行分析：</p>\n<pre class=\"prettyprint language-bash\"><code> gdb .&#x2F;node core.24269\n For help, type &quot;help&quot;.\nType &quot;apropos word&quot; to search for commands related to &quot;word&quot;...\nReading symbols from .&#x2F;node...done.\nwarning: .dynamic section for &quot;&#x2F;lib64&#x2F;ld-linux-x86-64.so.2&quot; is not at the expected address (wrong library or version mismatch?)\nwarning: Could not load shared library symbols for 7 libraries, e.g. &#x2F;lib64&#x2F;libdl.so.2.\nUse the &quot;info sharedlibrary&quot; command to see the complete listing.\nDo you need &quot;set solib-search-path&quot; or &quot;set sysroot&quot;?\nCore was generated by &#96;node&#x27;.\n#0  0x00007f2e584a6483 in ?? ()\n[Current thread is 1 (LWP 24270)]\n(gdb) bt\n#0  0x00007f2e584a6483 in ?? ()\n#1  0x0000000000000000 in ?? ()\n</code></pre><p>好家伙全是乱码，这里显然缺少运行时的动态链接库，将服务器上的动态链接库打包后手动指定根目录：</p>\n<pre class=\"prettyprint language-bash\"><code>(gdb) set sysroot &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs\nReading symbols from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libdl.so.2...(no debugging symbols found)...done.\nReading symbols from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libstdc++.so.6...(no debugging symbols found)...done.\nReading symbols from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libm.so.6...(no debugging symbols found)...done.\nReading symbols from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libgcc_s.so.1...(no debugging symbols found)...done.\nReading symbols from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libpthread.so.0...(no debugging symbols found)...done.\nwarning: Unable to find libthread_db matching inferior&#x27;s thread library, thread debugging will not be available.\nReading symbols from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6...(no debugging symbols found)...done.\nReading symbols from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;home&#x2F;work&#x2F;node&#x2F;node_modules&#x2F;xprofiler&#x2F;build&#x2F;binding&#x2F;Release&#x2F;node-v72-linux-x64&#x2F;xprofiler.node...(no debugging symbols found)...done.\n</code></pre><p>这样总算可以正常查看每一个线程的栈帧回溯：</p>\n<pre class=\"prettyprint language-bash\"><code>(gdb) thread apply all bt\nThread 13 (LWP 24269):\n#0  0x00007f2e584a6483 in epoll_wait () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6\n#1  0x00000000013480e0 in uv__io_poll (loop=loop@entry=0x2c9aac0 &lt;default_loop_struct&gt;, timeout=5526) at ..&#x2F;deps&#x2F;uv&#x2F;src&#x2F;unix&#x2F;linux-core.c:309\n#2  0x0000000001335ddf in uv_run (loop=0x2c9aac0 &lt;default_loop_struct&gt;, mode=UV_RUN_DEFAULT) at ..&#x2F;deps&#x2F;uv&#x2F;src&#x2F;unix&#x2F;core.c:381\n#3  0x0000000000a4b5f5 in node::NodeMainInstance::Run() ()\n#4  0x00000000009da5a8 in node::Start(int, char**) ()\n#5  0x00007f2e583ca3d5 in __libc_start_main () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6\n#6  0x0000000000979215 in _start ()\n\nThread 8 (LWP 24285):\n#0  0x00007f2e5846ce2d in nanosleep () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6\n#1  0x00007f2e5846ccc4 in sleep () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6\n#2  0x00007f2e559809c8 in xprofiler::CreateIpcServer(void (*)(char*)) () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;home&#x2F;work&#x2F;node&#x2F;node_modules&#x2F;xprofiler&#x2F;build&#x2F;binding&#x2F;Release&#x2F;node-v72-linux-x64&#x2F;xprofiler.node\n#3  0x00007f2e5877cdd5 in start_thread () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libpthread.so.0\n#4  0x00007f2e584a5ead in clone () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6\n\nThread 7 (LWP 24284):\n#0  0x00007f2e5846ce2d in nanosleep () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6\n#1  0x00007f2e5846ccc4 in sleep () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6\n#2  0x00007f2e559409b4 in xprofiler::CreateLogThread(void*) () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;home&#x2F;work&#x2F;node&#x2F;node_modules&#x2F;xprofiler&#x2F;build&#x2F;binding&#x2F;Release&#x2F;node-v72-linux-x64&#x2F;xprofiler.node\n#3  0x00007f2e5877cdd5 in start_thread () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libpthread.so.0\n#4  0x00007f2e584a5ead in clone () from &#x2F;home&#x2F;hyj1991&#x2F;git&#x2F;examples&#x2F;0924&#x2F;libs&#x2F;lib64&#x2F;libc.so.6\n</code></pre><p>可以看到 <code>xprofiler</code> 插件创建的两个线程正常工作，JS 主线程则处于 <code>epoll_wait</code> 状态，没有任何可疑的会导致进程假死的阻塞！</p>\n<p>到这里我是真的疑惑了，线程堆栈完全正常，CPU 和内存也正常，那么进程为什么会处于无响应的假死状态呢？</p>\n<h2>IV. 另一个思路</h2>\n<p>连万能的 Core 分析都找不到异常的地方，似乎这个问题已经没办法排查了。</p>\n<p>无奈之下，我又回到一开始的问题： <strong>为什么处于子线程的 xprofiler 插件不再输出日志</strong></p>\n<p>回顾了一遍 <code>xprofiler</code> 插件中定时采集输出日志的逻辑：</p>\n<pre class=\"prettyprint language-cpp\"><code>static void CreateLogThread(void *unused) {\n  uint64_t last_loop_time = uv_hrtime();\n  while (1) {\n    Sleep(1);\n\n    SetNowCpuUsage();\n\n    if (uv_hrtime() - last_loop_time &gt;= GetLogInterval() * 10e8) {\n      last_loop_time = uv_hrtime();\n      bool log_format_alinode = GetFormatAsAlinode();\n\n      GetMemoryInfo();\n      GetLibuvHandles();\n\n      Sleep(1);\n\n      WriteCpuUsageInPeriod(log_format_alinode);\n      WriteMemoryInfoToLog(log_format_alinode);\n      WriteGcStatusToLog(log_format_alinode);\n      WriteLibuvHandleInfoToLog(log_format_alinode);\n      WriteHttpStatus(log_format_alinode, GetPatchHttpTimeout());\n    }\n  }\n}\n</code></pre><p>可以确定只要日志线程依旧存活，一定会走到写日志的逻辑：</p>\n<pre class=\"prettyprint language-cpp\"><code>#define WRITET_TO_FILE(type)                   \\\n  uv_mutex_lock(&amp;logger_mutex);                \\\n  type##_stream.open(filepath, std::ios::app); \\\n  type##_stream &lt;&lt; log;                        \\\n  type##_stream.close();                       \\\n  uv_mutex_unlock(&amp;logger_mutex);\n</code></pre><p>这里用了一个宏来将日志写到文件，本质上就是一个 <code>ofstream</code> 的文件流，看到这里我有一个猜测是不是这个文件流打开失败了导致内核日志没有正常写入文件。</p>\n<p>于是去翻 <a href=\"https://linux.die.net/man/2/open\">Linux Man 手册 open 方法</a> 看看哪些情况下会调用失败：</p>\n<p><img src=\"//static.cnodejs.org/FsHU0ANT9qcpgRt85ATemYL7IKs3\" alt=\"image.png\"></p>\n<p>其它的看起来都不太可能，唯独和文件打开数相关的限制看起来可疑：</p>\n<blockquote>\n<p>The system limit on the total number of open files has been reached.</p>\n</blockquote>\n<p>到这里感觉突然峰回路转，立马联系 Midqiu 查看重启后的进程的文件打开数：</p>\n<pre class=\"prettyprint language-bash\"><code>lsof -p &lt;pid&gt; | wc -l\n</code></pre><p>并且将这个值与系统的 <code>ulimit -n</code> 限制进行对比：</p>\n<p><img src=\"//static.cnodejs.org/Fiox3HhSoTVejnzqBD7RF-A8m6yX\" alt=\"image.png\"></p>\n<p>果然，重启后的 Node.js 进程文件打开数随着访问量逐步上涨，逐渐逼近系统的限制，问题就是出在这个假死进程的文件打开数上！</p>\n<h2>V. 定位问题代码段</h2>\n<p>有了问题的方向接下来就方便很多，我们可以使用 <code>lsof -p &lt;pid&gt;</code> 查看具体是哪些句柄：</p>\n<p><img src=\"//static.cnodejs.org/FrmkQz52RaDaTEt3xk-OjKaxsjpk\" alt=\"image.png\"></p>\n<p>好家伙，8W+ 的 <strong>/home/work/node/logs/important/production.x-access.serverless_runtime.2020-09-24.log</strong> 这个文件的重复文件句柄！</p>\n<p>经过沟通，这个文件是项目里面用来记录用户请求 access 日志对应的日志文件，那么猜测是记录 access 日志的中间件在重复的 <code>fs.open</code> 此文件。</p>\n<p>拿到这个日志中间件的源代码，果然存在一个 <code>Logger</code> 类里有 <code>fs.open</code> 动作：</p>\n<pre class=\"prettyprint language-javascript\"><code>private async ensureFile(filename: string): Promise &lt; number &gt; {\n  if(Object.keys(this.fds).length &gt; 150) {\n    for (const [_, fd] of Object.entries(this.fds)) {\n      fs.close(fd);\n    }\n    this.fds = {};\n   }\n  if (!this.fds[filename]) {\n    this.fds[filename] = await new Promise&lt;number&gt;((resolve, reject) =&gt; {\n      fs.open(filename, &quot;a&quot;, (err, fd) =&gt; {\n        if (err) {\n          reject(err);\n        } else {\n          resolve(fd);\n        }\n      });\n    });\n  }\n  return this.fds[filename];\n}\n</code></pre><p>然后是记录日志的地方会调用这个方法获取日志文件的 fd：</p>\n<pre class=\"prettyprint language-javascript\"><code>private async appendLine(filename: string, line: string): Promise &lt; void&gt; {\n  const fd = await this.ensureFile(filename);\n  await new Promise(((resolve, reject) =&gt; {\n    fs.write(fd, line + &quot;\\n&quot;, (err) =&gt; {\n      if (err) {\n        reject(err);\n      } else {\n        resolve();\n      }\n    });\n  }));\n}\n</code></pre><p>这个 <code>Logger</code> 类到这里看起来也没问题，然而最后回到服务的入口文件时发现开发者竟然把 <code>Logger</code> 这个需要全局共享的实例初始化放到了 Express 中间件里：</p>\n<pre class=\"prettyprint language-javascript\"><code>app.use(function(req, res, next) {\n  &#x2F;&#x2F;...\n  const logger = new Logger();\n  res.locals.log = logger;\n  next();\n});\n</code></pre><p>这就导致每来一个用户请求都会实例化一个 <code>Logger</code> 实例，此时记录本次请求的 access 日志就会打开一个重复的日志文件句柄，从而导致了进程文件句柄的泄露。</p>\n<p>最后进程可使用的文件句柄数超过系统限制后进程就处于假死状态，表现为文件句柄数溢出后，后续此进程任何 I/O 相关的系统调用都会阻塞。</p>\n<h2>VI. 修复文件句柄泄露</h2>\n<p>定位到代码问题后，修复也非常简单，这里可以全局初始化 access 日志实例，请求日志共享此文件句柄即可。</p>\n<p>另外简单点也可以直接修改 <code>appendLine</code> 方法为 <code>fs.writeFile</code> ：</p>\n<pre class=\"prettyprint language-javascript\"><code>private async appendLine(filename: string, line: string): Promise &lt; void&gt; {\n  await new Promise(((resolve, reject) =&gt; {\n    fs.writeFile(filename, line + &quot;\\n&quot;, { flag: &#x27;a&#x27; }, (err) =&gt; {\n      if (err) {\n        reject(err);\n      } else {\n        resolve();\n      }\n    });\n  }));\n}\n</code></pre><p>这样牺牲了一部分性能但是不会有文件句柄泄露的问题。</p>\n<h2>VII. 小结</h2>\n<p>实际上 Node.js 提供的的 <code>stream</code> 、 <code>net</code> 以及 <code>fs</code> 里面的 fd 相关操作函数，这些模块或者函数相对 Node.js 其它封装的上层函数更接近底层库。</p>\n<p>而历史经验告诉我们，这部分底层库相关的函数，如果自己没有完全理解千万不要随便想当然的用，大概率一写一个大坑等着你。</p>\n<p>最后 Easy-Monitor 即将加入对监控进程自身的文件打开数的监控，帮助大家下次秒解决此类问题。</p>\n</div>",
+            "title": "Node 案发现场揭秘 —— 文件句柄泄露导致进程假死",
+            "last_reply_at": "2020-09-30T02:39:46.709Z",
+            "good": true,
+            "top": false,
+            "reply_count": 17,
+            "visit_count": 941,
+            "create_at": "2020-09-24T11:48:05.149Z",
+            "author": {
+                "loginname": "hyj1991",
+                "avatar_url": "https://avatars2.githubusercontent.com/u/19908330?v=4&s=120"
+            }
+        }
+    ]
+}
